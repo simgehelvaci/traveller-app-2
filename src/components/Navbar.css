@@ -43,11 +43,30 @@
   }
   
   .btn {
-    background-color: #000;
-    color: #fff;
     padding: 0.4rem 1rem;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.2s ease;
   }
+  
+  .btn-blue {
+    background-color: #42a5f5;
+    color: #fff;
+  }
+  
+  .btn-blue:hover {
+    background-color: #1d8fe3;
+  }
+  
+  .btn:not(.btn-blue) {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .btn:not(.btn-blue):hover {
+    background-color: #222;
+  }
+  
   
