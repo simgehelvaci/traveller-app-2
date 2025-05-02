@@ -1,3 +1,3 @@
 // Login.tsx
-const Login = () => <h2>Login</h2>
+const Login = () => <h2>Sign In</h2>
 export default Login

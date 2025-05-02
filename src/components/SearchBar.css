@@ -1,0 +1,12 @@
+.search-bar-container {
+    margin-top: 62px; /* Navbar yüksekliği kadar boşluk bırak */
+    height: 53vh;     /* Yaklaşık 5 bölü 6 oranında */
+    border: 2px solid red;
+    width: 100vw;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0; 
+  }
+  
