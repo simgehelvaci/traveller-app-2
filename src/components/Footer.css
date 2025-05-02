@@ -1,0 +1,13 @@
+.footer-section {
+    margin: 1px auto;
+    width: 100vw;
+    height: 20vh;
+    background-color: #f8f8f8;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
