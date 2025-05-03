@@ -5,8 +5,9 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <div className="pt-32">
-      <SearchBar />
-     
+      <SearchBar /> 
+      <MidBar /> 
+      <Footer /> 
      
     </div>
   )
