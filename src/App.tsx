@@ -16,7 +16,6 @@ function App() {
     <Router>
         <Navbar />
         <Routes>
-        console.log('UNSPLASH KEY:', import.meta.env.VITE_UNSPLASH_ACCESS_KEY)
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/profile" element={<Profile />} />
