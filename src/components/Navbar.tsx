@@ -7,10 +7,10 @@ const Navbar = () => {
 
       <div className="nav-left">
       <Link to="/" className="logo">
-  <img src="/favicon2.png" alt="Traveller Logoo" className="h-8 w-8 inline-block mr-2" />traveller.</Link>
+  <img src="/favicon2.png" alt="Traveller Logo" className="h-8 w-8 inline-block mr-2" />traveller.</Link>
       </div>   
       <div className="nav-center">
-        <Link to="/discover" className="nav-link">Discover</Link>
+        <Link to="/discover" className="nav-link">Discovererer</Link>
         <Link to="/feed" className="nav-link">Feed</Link>
         <Link to="/friends" className="nav-link">Friends</Link>
     
