@@ -49,13 +49,13 @@
   }
   
   .login-input:focus {
-    border-color: #3b82f6; /* blue-500 */
+    border-color: #e1096799; /* blue-500 */
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
   }
   
   .login-button {
     width: 100%;
-    background-color: #3b82f6;
+    background-color: #e1096799;;
     color: white;
     font-weight: 600;
     padding: 0.5rem 1rem;
@@ -66,7 +66,7 @@
   }
   
   .login-button:hover {
-    background-color: #2563eb; /* blue-600 */
+    background-color: #91c788; /* blue-600 */
   }
   
   .login-footer-text {
@@ -77,11 +77,12 @@
   }
   
   .login-register-link {
-    color: #3b82f6;
+    color: #e1096799;
     text-decoration: none;
   }
   
   .login-register-link:hover {
     text-decoration: underline;
+    color:#91c788;
   }
   
