@@ -83,9 +83,9 @@ export default function SearchBar() {
   return (
     <div className="search-wrapper">
       <h1 className="search-title">
-        <span style={{ color: '#3b82f6' }}>Discover </span>
+        <span style={{ color: '#91c788' }}>Discover </span>
         <span style={{ color: '#1f2937' }}>your next adventure with </span>
-        <span style={{ color: '#3b82f6' }}>traveller.</span>
+        <span style={{ color: '#e1096799' }}>traveller.</span>
       </h1>
 
       <div className="category-buttons">

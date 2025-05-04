@@ -6,7 +6,11 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
+  --watermelon-red: #ff4b5c;
+  --watermelon-pink: #ffd6dd;
+  --watermelon-green: #91c788;
+  --watermelon-dark: #519259;
+  --seed-black: #2f2f2f;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -29,6 +33,7 @@ body,#root {
   min-width: 320px;
   min-height: 100vh;
 }
+
 
 
 
@@ -75,6 +80,13 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+:root {
+  --watermelon-red: #ff4b5c;
+  --watermelon-pink: #ffd6dd;
+  --watermelon-green: #91c788;
+  --watermelon-dark: #519259;
+  --seed-black: #2f2f2f;
 }
 
 .login-box {

@@ -6,8 +6,11 @@ const Navbar = () => {
     <nav className="navbar">
 
       <div className="nav-left">
-      <Link to="/" className="logo">
-  <img src="/favicon2.png" alt="Traveller Logo" className="h-8 w-8 inline-block mr-2" />traveller.</Link>
+      <Link to="/" className="logo flex items-center gap-2 text-lg font-bold text-[var(--watermelon-red)]">
+  <img src="/favicon2.png" alt="logo" className="w-6 h-6" />
+  <span className="hidden sm:inline">traveller.</span>
+</Link>
+
       </div>   
       <div className="nav-center">
         <Link to="/discover" className="nav-link">Discover</Link>
